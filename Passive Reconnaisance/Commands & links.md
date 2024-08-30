@@ -17,8 +17,11 @@ Tool for monitoring your own infrastructure and getting alerts: https://monitor.
 # Shodan Queries:
 Ransomware attacked:
 > ```has_screenshot:true encrypted attention```
+
 No authentication:
 > ```screenshot.label:ics```
+
 Shodan Dorks: https://github.com/lothos612/shodan
 > Shodan browser extension: https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap
+
 Shodan API: https://github.com/bee-san/How-I-Hacked-Your-Pi-Hole/blob/master/README.md
