@@ -17,3 +17,9 @@
 > ```nc -vnlp 1234``` open a port and listen for it on a specific path from a server. For client side: ```nc server_ip 1234```.
 > Parameters: ```-l``` = Listen mode. ```-p``` = Specify the Port number (should appear just before the port number you want to listen on). ```-n``` = Numeric only; no resolution of hostnames via DNS (will avoid DNS lookups and warnings). ```-v``` = Verbose output (optional, yet useful to discover any bugs). ```-vv``` = Very Verbose (optional). ```-k``` = Keep listening after client disconnects.
 > Port numbers less than 1024 require root privileges to listen on.
+
+# Nmap
+> Used for: Enumerate targets, discover live hosts, reverse DNS-lookup, scan ports, detect versions, detect OS, traceroute, scripts, write output.
+> ARP scan: uses ARP requests to discover live hosts
+> ICMP scan: uses ICMP requests to identify live hosts
+> TCP/UDP ping scan: sends packets to TCP ports and UDP ports to determine live hosts
